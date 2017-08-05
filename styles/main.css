@@ -1,1 +1,100 @@
+body {
+    width: 960px;
+    margin: 20px auto;
+}
 
+h1 {
+    color: #777777;
+    border-bottom: 1px solid #777777;
+}
+
+h2 {
+    color: #aa0000;
+    border-bottom: 1px dashed #aa0000;
+}
+
+hr {
+    clear: both;
+}
+
+.navMenu {
+    background-color: #000000;
+    color: #ffffff;
+    display: block;
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    list-style-type: none;
+}
+
+.navMenu:hover {
+    transform: scale(1.15);
+    transition-duration: 0.5s; 
+    color: #aa0000;
+}
+
+.gallery {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;  
+}
+
+.galImg {
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+.galImg:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;    
+}
+
+.galImg:hover body {
+    background-color: grey;
+}
+
+.mainContent {
+    float: left;
+    width: 70%;
+}
+
+.sideBar {
+    background-color: #e7e7e7;
+    color: #000000;
+    float: right;
+    width: 20%;
+}
+
+.footer {
+    border-top: 1ps solid #000000;
+    clear: both;
+    padding-top: 10px;
+}
+
+.image-list2 {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.image-list2 li {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+.image-list2 img {
+    width: 100px;
+    height: 100px;
+}
+
+.image-list2 img:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s; 
+}
+
+.image-list2 h4 {
+    text-align: center;
+    color: #000000;
+}
